@@ -12,7 +12,7 @@ namespace LegacyAppConsumer
              */
 
             var userService = new UserService();
-            var addResult = userService.AddUser("John", "Doe", "johndoe@gmail.com", DateTime.Parse("1982-03-21"), 100);
+            var addResult = userService.AddUser("John", "Doe", "johndoe@gmail.com", DateTime.Parse("1982-03-21"), 1);
             if (addResult)
                 Console.WriteLine($"Adding John Doe was successful");
             else
